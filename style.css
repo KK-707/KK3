@@ -1,0 +1,95 @@
+@media (max-width: 600px) {
+  .cebian {
+    display: none;
+  }
+  .neiron {
+    flex-direction: column;
+  }
+  .shuju {
+    flex-direction: column;
+  }
+  .shujukuai {
+    margin: 1px 2px;
+    flex: auto;
+  }
+  .you {
+    margin-left: 8px;
+  }
+}
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: rgb(255, 249, 240);
+}
+/* * {
+  border: 1px solid black;
+} */
+.yinYing {
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 1px -1px;
+}
+.flex {
+  display: flex;
+}
+.flex1 {
+  flex: 1;
+}
+.flex3 {
+  flex: 3;
+}
+.mg8 {
+  margin: 8px;
+}
+.mgr8 {
+  margin-right: 8px;
+}
+.mgt8 {
+  margin-top: 8px;
+}
+.cebian {
+  width: 200px;
+  z-index: 1;
+}
+.touxian {
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid black;
+}
+.touxian img {
+  width: 40px;
+  height: 40px;
+}
+.touxian .name {
+  margin-left: 10px;
+}
+.daohan {
+  padding: 10px 20px;
+  border-bottom: 1px solid rgb(190, 189, 189);
+  font-size: 18px;
+  color: rgb(136, 255, 0);
+}
+.toubu {
+  height: 60px;
+  z-index: 1;
+}
+.neiron {
+  overflow: auto;
+}
+.shujukuai {
+  height: 100px;
+}
+.liebiaoxian {
+  height: 160px;
+}
+.tishi {
+  height: 150px;
+}
+.xiaoxi {
+  height: 300px;
+}
+.baiSe {
+  background-color: white;
+}
+.column {
+  flex-direction: column;
+}
